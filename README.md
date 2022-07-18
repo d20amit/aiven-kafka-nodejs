@@ -4,11 +4,11 @@ Aiven for Apache Kafka® is a fully managed distributed data streaming platform,
 
 In this article we will deploy a kafka service and create a Node.js producer to publish battery alerts from IOT devices. We will also demonstrate monitoring of our kafka service using InfluxDB and Grafana services provided by Aiven.
 
-Note: You will need an Aiven account to follow along the instructions in this tutorial. Please register at aiven.io, Aiven will provide a credit of $300 for one month, which is sufficient for ˇthis excercise.
+Note: You will need an Aiven account to follow along the instructions in this tutorial. Please register at aiven.io, Aiven will provide a credit of $300 for one month, which is sufficient for ˇthis tutorial.
 
 # Creating Aiven for Apache Kafka Service
 
-Aiven provides an intuitive web console to create and manage services. Login to the console, go to "Services" menu option to create a new service and follow these steps:
+Aiven provides an intuitive web console to create and manage services. [Login](https://console.aiven.io/login) to the console, go to "Services" menu option to create a new service and follow these steps:
 
 1. Select "Apache Kafka" service.
 2. Select the cloud provider of your choice. e.g. AWS
@@ -195,6 +195,8 @@ You should be able to see the message published in the previous step.
 # Observability and Monitoring
 
 So far we have deployed a kafka service and created a Node.js program to publish messages to our kafka service. For a business critical service, monitoring is a very important aspect. Aiven provides the ability to set up observability and monitoring of our kafka service with just a few clicks. In this section we will set up mechanism to publish kafka metrics to Aiven InfluxDB service and then visualize it using Aiven Grafana service.
+
+InfluxDB is an open source time series database suitable to storing metrics data. Grafana is an open source interactive visualization web application widely used for monitoring metrics.
 
 ## Create InfluxDB and Grafana services
 
