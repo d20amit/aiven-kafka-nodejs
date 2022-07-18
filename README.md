@@ -4,7 +4,7 @@ Aiven for Apache Kafka® is a fully managed distributed data streaming platform,
 
 In this article we will deploy a kafka service and create a Node.js producer to publish battery alerts from IOT devices. We will also demonstrate monitoring of our kafka service using InfluxDB and Grafana services provided by Aiven.
 
-Note: You will need an Aiven account to follow along the instructions in this tutorial. Please register at aiven.io, Aiven will provide a credit of $300 for one month, which is sufficient for ˇthis tutorial.
+Note: You will need an Aiven account to follow along the instructions in this tutorial. Please register at aiven.io, Aiven will provide a credit of $300 for one month, which is sufficient for this tutorial.
 
 # Creating Aiven for Apache Kafka Service
 
